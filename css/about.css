@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif ;
+
+}
+body {
+    background-image: url(/assets/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: white;
+    
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    
+}
+.navbar {
+    background-color: #161616;
+    padding-right: 29px;
+
+}
+.navbar a {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0s;
+    
+}
+
+.navbar a:hover,
+.navbar a.active  {
+    color: rgb(46, 99, 121);
+
+}
+.container {
+    position: fixed;
+    top: 53%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about-me .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: rgb(46, 99, 121);
+  }
+  
+  .about-me .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-me .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-me .content ul strong {
+    margin-right: 10px;
+  }
+  
+  .about-me .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: rgb(46, 99, 121);
+    line-height: 0;
+  }
+  
+  .about-me .content p:last-child {
+    margin-bottom: 0;
+  }
+ .textcolor {
+    color: rgb(46, 99, 121);
+    text-decoration : underline ;
+    text-underline-offset: 9px;
+
+ }
+ 
