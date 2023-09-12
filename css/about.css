@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins' , sans-serif ;
+    font-family: 'roboto' , sans-serif ;
 
 }
 body {
@@ -126,4 +126,7 @@ body {
   left: 0px; 
   text-align: center;
   background-color:rgba(46, 99, 121, 0.185) ; 
+  }
+  .img-fluid {
+    height: 50%;
   }
